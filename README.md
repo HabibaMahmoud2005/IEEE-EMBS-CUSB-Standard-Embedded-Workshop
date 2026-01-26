@@ -24,11 +24,11 @@ By the end of this workshop, students will be able to:
 
 ## 🗂 Repository Structure
 
-Session-1-Digital-IO/
-Session-2-Analog-PWM/
-Session-3-Serial-Sensors-Functions/
-Session-4-Motors-Displays-Integration/
-Final-Projects/
+- Session-1-Digital-IO
+- Session-2-Analog-PWM
+- Session-3-Serial-Sensors-Functions
+- Session-4-Motors-Displays-Integration
+- Final-Projects
 
 ## Each session folder includes:
 
