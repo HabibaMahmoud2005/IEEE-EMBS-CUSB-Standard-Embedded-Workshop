@@ -30,7 +30,7 @@ By the end of this workshop, students will be able to:
 - Session-4-Motors-Displays-Integration
 - Final-Projects
 
-## Each session folder includes:
+## Each session folder includes
 
 - 📘 Explanation notes  
 - 💻 Arduino code examples  
