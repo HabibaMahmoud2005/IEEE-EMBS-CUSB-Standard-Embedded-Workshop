@@ -1,8 +1,10 @@
+# C Basics for Arduino
+
 # 💻 C/C++ Basics for Arduino Students
 
 Our goal is to **use programming as a tool** to build embedded systems — not to study programming theory.
 
-## 🧠 1. Structure of an Arduino Program
+## 1. Structure of an Arduino Program
 
 Every Arduino program has two main parts:
 
@@ -19,7 +21,7 @@ void loop() {
 - `setup()` → used to initialize pins and settings
 - `loop()` → contains the logic that runs continuously
 
-## 📦 2. Variables (Storing Data)
+## 2. Variables (Storing Data)
 
 Variables are used to store values like sensor readings or pin numbers.
 
@@ -37,7 +39,7 @@ char letter = 'A';
 | `bool` | True/False values |
 | `char` | Single characters |
 
-## ➕ 3. Operators
+## 3. Operators
 
 Used to perform calculations or comparisons.
 
@@ -61,7 +63,7 @@ Used to perform calculations or comparisons.
 !    (NOT)
 ```
 
-## 🔀 4. Conditions (Decision Making)
+## 4. Conditions (Decision Making)
 
 Used to control behavior based on a condition.
 
@@ -74,9 +76,7 @@ digitalWrite(13, LOW);
 }
 ```
 
----
-
-## 🔁 5. Loops (Repetition)
+## 5. Loops (Repetition)
 
 ### For Loop
 
@@ -101,9 +101,9 @@ while (buttonState == LOW) {
 }
 ```
 
-## ⚙️ 6. Functions
+## 6. Functions
 
-Functions help organize code into reusable blocks.
+Functions help organize code into **reusable** blocks.
 
 ```cpp
 voidblinkLED(int times) {
@@ -122,7 +122,7 @@ Calling the function:
 blinkLED(3);
 ```
 
-## 📌 7. Comments
+## 7. Comments
 
 Used to explain code.
 
@@ -135,12 +135,12 @@ Used to explain code.
 */
 ```
 
-## 🧩 8. Basic Arduino Functions You'll Use
+## 8. Basic Arduino Functions You'll Use
 
 | Function | Purpose |
 | --- | --- |
-| `pinMode(pin, mode)` | Set pin as INPUT or OUTPUT |
-| `digitalWrite(pin, value)` | Set pin HIGH or LOW |
+| `pinMode(pin, mode)` | Set pin as **INPUT** or **OUTPUT** |
+| `digitalWrite(pin, value)` | Set pin **HIGH** or **LOW** |
 | `digitalRead(pin)` | Read digital input |
 | `analogRead(pin)` | Read analog sensor |
 | `analogWrite(pin, value)` | Output PWM signal |
