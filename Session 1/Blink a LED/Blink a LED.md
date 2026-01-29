@@ -5,7 +5,7 @@
 ## **Explanation**
 - **Pin 13** is connected to the built-in LED on most Arduino boards.
 
-![Pin 13 Built-in LED](Screenshot_2026-01-28_204953.png)
+![Pin 13 Built-in LED](./Screenshot_2026-01-28_204953.png)
 
 - `pinMode()` tells Arduino whether a pin is an input or output.
 - `digitalWrite()` sets the pin to:
