@@ -293,7 +293,7 @@ The pinout tells us:
 - **Digital connector (JDIGITAL)**
 - **Power pins**
 
-![arduino_uno_pinout.png](arduino_uno_pinout.png)
+![arduino_uno_pinout.png](images/arduino_uno_pinout.png)
 
 
 # How to Read a Pinout Table
