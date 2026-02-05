@@ -1,5 +1,3 @@
-# C Basics for Arduino
-
 # 💻 C/C++ Basics for Arduino Students
 
 Our goal is to **use programming as a tool** to build embedded systems — not to study programming theory.
@@ -149,5 +147,5 @@ Used to explain code.
 
 # Resources will Help You
 
-- [https://youtube.com/playlist?list=PLv5bCJpKDWIazJBFmeTLXOJ6CwLAxvVGY&si=d7YpEJYRHxn83qWW](https://youtube.com/playlist?list=PLv5bCJpKDWIazJBFmeTLXOJ6CwLAxvVGY&si=d7YpEJYRHxn83qWW)
-- [https://youtu.be/BLrHTHUjPuw?si=i9qTa_51uaCld3FT](https://youtu.be/BLrHTHUjPuw?si=i9qTa_51uaCld3FT)
+- https://youtube.com/playlist?list=PLv5bCJpKDWIazJBFmeTLXOJ6CwLAxvVGY&si=d7YpEJYRHxn83qWW
+- https://youtu.be/BLrHTHUjPuw?si=i9qTa_51uaCld3FT
