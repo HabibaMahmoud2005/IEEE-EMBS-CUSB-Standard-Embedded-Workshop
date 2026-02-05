@@ -14,7 +14,7 @@ An **embedded system** is a specialized computer system designed to perform a 
 
 - **Resource-limited**: Optimized for low memory, low power, and minimal processing.
 
-        It usually has:
+It usually has:
 
 - Small memory
 - Low processing power
