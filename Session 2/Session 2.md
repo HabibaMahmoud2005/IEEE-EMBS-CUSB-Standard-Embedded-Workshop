@@ -103,7 +103,7 @@ On the Arduino UNO:
 
 Analog signals represent **real-world physical quantities**.
 
-![Arduino UNO Board](images/arduino adc pins 1.webp)
+![Arduino UNO Board](images/arduino%20adc%20pins%201.webp)
 
 ## 3. ADC (Analog-to-Digital Converter)
 
@@ -245,7 +245,7 @@ PWM signals also have a **frequency**, which affects system behavior.
 | 3, 9, 10, 11 | ~490 Hz |
 | 5, 6 | ~980 Hz |
 
-![arduino pwm pins.webp](images/arduino pwm pins.webp)
+![arduino pwm pins.webp](images/arduino%20pwm%20pins.webp)
 
 **Why frequency matters:**
 
