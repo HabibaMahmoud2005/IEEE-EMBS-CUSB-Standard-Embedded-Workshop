@@ -73,6 +73,92 @@ else {
 digitalWrite(13, LOW);
 }
 ```
+## 4.1 Simple `if` Statement
+
+Used when you want something to happen **only if a condition is true**.
+
+### Syntax:
+
+`if (condition) 
+{   // code runs if condition is true }`
+
+### Example:
+
+`if (temperature > 30)
+{   digitalWrite(13, HIGH); }`
+
+### Flowchart:
+
+        `[Start]             |      [temperature > 30 ?]             |         True |             v    [Turn LED ON]             |           [End]`
+
+If the condition is false, nothing happens.
+
+## 4.2 `if - else` Statement
+
+Used when you want **two possible outcomes**.
+
+### Syntax:
+
+`if (condition) 
+{   // runs if true } 
+else {   // runs if false }`
+
+### Example:
+
+`if (temperature > 30) 
+{   digitalWrite(13, HIGH); } 
+else {   digitalWrite(13, LOW); }`
+
+### Flowchart:
+
+            `[Start]                 |        [temperature > 30 ?]             /         \          True         False           /              \  [Turn LED ON]     [Turn LED OFF]           \              /                 [End]`
+
+Exactly **one block** will execute.
+
+## 4.3 `if - else if - else`
+
+Used when you have **multiple conditions**.
+
+### Syntax:
+
+`if (condition1)
+{    // block 1 }
+else if (condition2) 
+{    // block 2 } 
+else {    // default block }`
+
+### Example:
+
+`if (temperature > 35)
+{   Serial.println("Very Hot"); }
+else if (temperature > 25)
+{   Serial.println("Warm"); }
+else {   Serial.println("Cold"); }`
+
+### Flowchart:
+
+               `[Start]                    |          [temperature > 35 ?]             /          \          Yes            No          /               \  [Print "Very Hot"]   [temperature > 25 ?]                            /        \                         Yes          No                         /              \                [Print "Warm"]     [Print "Cold"]                           \            /                                [End]`
+
+The program checks conditions **from top to bottom**.  
+Once one condition is true, the rest are ignored.
+
+## Important Embedded Systems Note ⚡
+
+In Arduino systems:
+
+-   Conditions often depend on:
+    
+    -   `digitalRead()`
+    -   `analogRead()`
+    -   Sensor values
+    -   Button states
+        
+Example with a button:
+
+`int buttonState = digitalRead(2); 
+if (buttonState == HIGH) 
+{   digitalWrite(13, HIGH); } 
+else {   digitalWrite(13, LOW); }`
 
 ## 5. Loops (Repetition)
 
