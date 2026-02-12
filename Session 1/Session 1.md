@@ -61,7 +61,7 @@ Embedded systems are **everywhere** around us:
 
 An embedded system is usually made of:
 
-### 1. Microcontroller / Microprocessor
+### 1. Microcontroller includes Microprocessor
 
 This is the **brain** of the system.
 
@@ -699,11 +699,11 @@ An Arduino program is called a **Sketch**.
 Every sketch has **two mandatory functions**:
 
 ```cpp
-voidsetup() {
+void setup() {
 // Runs once when the board starts
 }
 
-voidloop() {
+void loop() {
 // Runs repeatedly forever
 }
 ```
@@ -719,7 +719,7 @@ voidloop() {
 Example:
 
 ```cpp
-voidsetup() {
+void setup() {
 pinMode(13, OUTPUT);
 }
 ```
@@ -732,7 +732,7 @@ pinMode(13, OUTPUT);
 Example:
 
 ```cpp
-voidloop() {
+void loop() {
 digitalWrite(13, HIGH);
 delay(1000);
 digitalWrite(13, LOW);
@@ -838,11 +838,11 @@ The **Serial Monitor** lets you:
 Example:
 
 ```cpp
-voidsetup() {
+void setup() {
   Serial.begin(9600);
 }
 
-voidloop() {
+void loop() {
   Serial.println("Hello Arduino");
 delay(1000);
 }
