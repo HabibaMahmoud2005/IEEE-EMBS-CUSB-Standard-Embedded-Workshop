@@ -1,12 +1,12 @@
 int ledPin = 13;
 int buttonPin = 2;
 
-voidsetup() {
+void setup() {
 pinMode(ledPin, OUTPUT);
 pinMode(buttonPin, INPUT_PULLUP);
 }
 
-voidloop() {
+void loop() {
 int buttonState = digitalRead(buttonPin);
 
 if (buttonState == LOW) {
