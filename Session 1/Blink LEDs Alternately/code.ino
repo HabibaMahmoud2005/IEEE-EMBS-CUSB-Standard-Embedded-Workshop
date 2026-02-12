@@ -1,12 +1,12 @@
 int led1 =8;
 int led2 =9;
 
-voidsetup() {
+void setup() {
 pinMode(led1, OUTPUT);
 pinMode(led2, OUTPUT);
 }
 
-voidloop() {
+void loop() {
 digitalWrite(led1, HIGH);// LED 1 ON
 digitalWrite(led2, LOW);// LED 2 OFF
 delay(500);
