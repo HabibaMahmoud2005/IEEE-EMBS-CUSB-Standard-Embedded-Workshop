@@ -87,12 +87,6 @@ Used when you want something to happen **only if a condition is true**.
 `if (temperature > 30)
 {   digitalWrite(13, HIGH); }`
 
-### Flowchart:
-
-        `[Start]             |      [temperature > 30 ?]             |         True |             v    [Turn LED ON]             |           [End]`
-
-If the condition is false, nothing happens.
-
 ## 4.2 `if - else` Statement
 
 Used when you want **two possible outcomes**.
@@ -108,12 +102,6 @@ else {   // runs if false }`
 `if (temperature > 30) 
 {   digitalWrite(13, HIGH); } 
 else {   digitalWrite(13, LOW); }`
-
-### Flowchart:
-
-            `[Start]                 |        [temperature > 30 ?]             /         \          True         False           /              \  [Turn LED ON]     [Turn LED OFF]           \              /                 [End]`
-
-Exactly **one block** will execute.
 
 ## 4.3 `if - else if - else`
 
@@ -134,13 +122,6 @@ else {    // default block }`
 else if (temperature > 25)
 {   Serial.println("Warm"); }
 else {   Serial.println("Cold"); }`
-
-### Flowchart:
-
-               `[Start]                    |          [temperature > 35 ?]             /          \          Yes            No          /               \  [Print "Very Hot"]   [temperature > 25 ?]                            /        \                         Yes          No                         /              \                [Print "Warm"]     [Print "Cold"]                           \            /                                [End]`
-
-The program checks conditions **from top to bottom**.  
-Once one condition is true, the rest are ignored.
 
 ## Important Embedded Systems Note ⚡
 
