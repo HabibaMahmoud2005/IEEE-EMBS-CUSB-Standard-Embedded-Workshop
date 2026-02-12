@@ -33,9 +33,7 @@ By the end of this workshop, students will be able to:
 ## Each session folder includes
 
 - 📘 Explanation notes  
-- 💻 Arduino code examples  
-- 🧪 Practical exercises  
-- 🧩 Mini challenges  
+- 💻 Arduino code examples & Practical exercises
 
 ---
 
@@ -114,9 +112,4 @@ This workshop focuses on:
 
 > **Understanding concepts instead of memorizing code.**
 
-Students are encouraged to:
-- Experiment  
-- Modify examples  
-- Break things and fix them  
-- Think like engineers  
 
