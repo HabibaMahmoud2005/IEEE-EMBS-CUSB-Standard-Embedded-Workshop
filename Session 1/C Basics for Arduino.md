@@ -73,41 +73,41 @@ else {
 digitalWrite(13, LOW);
 }
 ```
-## 4.1 Simple `if` Statement
+### 4.1 Simple `if` Statement
 
 Used when you want something to happen **only if a condition is true**.
 
-### Syntax:
+Syntax:
 
 `if (condition) 
 {   // code runs if condition is true }`
 
-### Example:
+Example:
 
 `if (temperature > 30)
 {   digitalWrite(13, HIGH); }`
 
-## 4.2 `if - else` Statement
+### 4.2 `if - else` Statement
 
 Used when you want **two possible outcomes**.
 
-### Syntax:
+Syntax:
 
 `if (condition) 
 {   // runs if true } 
 else {   // runs if false }`
 
-### Example:
+Example:
 
 `if (temperature > 30) 
 {   digitalWrite(13, HIGH); } 
 else {   digitalWrite(13, LOW); }`
 
-## 4.3 `if - else if - else`
+### 4.3 `if - else if - else`
 
 Used when you have **multiple conditions**.
 
-### Syntax:
+Syntax:
 
 `if (condition1)
 {    // block 1 }
@@ -115,7 +115,7 @@ else if (condition2)
 {    // block 2 } 
 else {    // default block }`
 
-### Example:
+Example:
 
 `if (temperature > 35)
 {   Serial.println("Very Hot"); }
@@ -123,7 +123,7 @@ else if (temperature > 25)
 {   Serial.println("Warm"); }
 else {   Serial.println("Cold"); }`
 
-## Important Embedded Systems Note ⚡
+### Important Embedded Systems Note ⚡
 
 In Arduino systems:
 
