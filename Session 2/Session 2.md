@@ -311,7 +311,41 @@ tone(8, 1000);  // 1 kHz
 Used for alarms, alerts, and simple melodies.
 
 > ⚠️ `tone()` uses timers and may interfere with PWM on certain pins.
-> 
+>
+
+**What actually happens internally?**
+
+1. The microcontroller:
+
+- Configures a hardware timer.
+- Toggles pin 8 HIGH and LOW automatically.
+- Creates a square wave.
+
+Since it's a square wave:
+
+- HIGH for 0.5 ms
+- LOW for 0.5 ms
+
+Repeats continuously, So the pin switches: HIGH → LOW → HIGH → LOW ...
+1000 times per second.
+
+2. delay(500);
+
+This pauses the program for: 500 ms
+During this time:
+
+- The CPU is waiting
+- The timer continues running
+- The 1 kHz tone keeps playing
+
+So the buzzer sounds for half a second.
+
+3. noTone(8);
+
+- This Stops the timer
+- Stops toggling pin 8
+- Sets the pin LOW
+- Sound stops
 
 ## References
 
